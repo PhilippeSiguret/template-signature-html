@@ -1,8 +1,9 @@
 <html>
 	<head>
-		<meta charset="utf-8">
-		<style type="text/css">
-			body, a, td {
+		<meta charset="utf-8"> <!-- pour l'affichage des caractères  -->
+		<style type="text/css">  
+		/* pour la mise en forme générale  */
+			body, a, td { 
 				font-family: Arial,Helvetica,sans-serif;
 				color:rgb(136,136,136);
 				letter-spacing: -0.2px;
@@ -12,6 +13,7 @@
 				text-decoration: none;
 				text-align: left;
 				}
+		/*pour la mise en forme des class CSS*/
 			.small {
 				font-size: 13px;
 			}
@@ -37,34 +39,64 @@
 		</style>
 	</head>
 	<body>
+		<!-- La signature est sous forme de tableau -->
 		<table border="0" width="550">
-			<tr> <!-- photo nom réseaux sociaux -->
-				<td rowspan="5" class="photo"><!-- Photo  -->
+			<tr> 
+				<td rowspan="5" class="photo">
+					<!-- Mettre ici sa photo  -->
 					<img src="http://img11.hostingpics.net/pics/934951ludo.png">
 				</td>
-				<td class="big"> <!-- Prénom NOM --> <strong> Ludovic DOS SANTOS </strong></td>
-				<td class="social"> <!-- Linkedin -->
+				<td class="big">  <strong> <!-- Mettre ici son Prénom & nom --> Ludovic DOS SANTOS </strong></td>
+				<td class="social"> <!-- Mettre ici l'URL de son profil Linkedin -->
 					<a href="https://fr.linkedin.com/pub/ludovic-dos-santos/28/199/1a8" target="_blank">
 						<img src="http://img11.hostingpics.net/pics/588262linkedin.png"></a>
 				</td>
-				<td class="social"> <!-- viadéo -->
+				<td class="social"> <!-- Mettre ici l'URL de son viadéo -->
 					<a href="https://fr.viadeo.com/fr/profile/ludovic.dos-santos" target="_blank">
 						<img src="http://img11.hostingpics.net/pics/675350viadeo.png">
 					</a>
-				</td></tr>
+				</td>
+
+				<!-- Il est possible de mettre d'autres icones et d'autres réseaux sociaux. 
+				1. Il faut pour cela : créer une nouvelle case
+				2. mettre une nouvelle image 
+				3. Y ajouter le lien
+
+				Voici le code à copier-coller : -->
+
+				<!-- <td class="social"> 
+					<a href="METTRE ICI L'URL DU RESEAU SOCIAL QUE L'ON VEUT" target="_blank">
+						<img src="METTRE ICI L'URL DE L'IMAGE QUE L'ON VEUT">
+					</a>
+				</td> -->
+			</tr>
+			<!-- Le titre  -->
 			<tr><td class="italic big">Responsable d'Agence</td></tr>
+			
+			<!-- L'entreprise -->
 			<tr><td class="big"> <strong> Recrutop - Tertiaire & informatique</strong></td></tr>
+			
+			<!-- C'est la barre qui sépare -->
 			<tr><td colspan="7"><hr style="border-style:none none dotted"></td></tr>
+			
+			<!-- Ici on crée un nouveau tableau dans la case du bas à droite  -->
 			<tr><td colspan="7">
 				<table class="small">
 						<tr><!-- Adresse --><td><strong>Adresse</strong>&nbsp;: 65 rue des 3 Fontanot, 92000 NANTERRE</td>
 						</tr>
-						<tr><!-- Web --><td><strong>Site</strong>&nbsp;: <a href="http://www.recrutop.com/"target="_blank">www.recrutop.com</a></td></tr>
-						<tr><!-- Email --><td><strong>Email</strong>&nbsp;: <a href="mailto:ldossantos@recrutop.com"  target="_blank" >ldossantos@recrutop.com</a></td></tr>
+						<tr><!-- site: changer le nom et l'URL  --><td><strong>Site</strong>&nbsp;: <a href="http://www.recrutop.com/"target="_blank">www.recrutop.com</a></td></tr>
+						<tr><!-- Email (ne pas oublier de changer le mailto également --><td><strong>Email</strong>&nbsp;: <a href="mailto:ldossantos@recrutop.com"  target="_blank" >ldossantos@recrutop.com</a></td></tr>
 						<tr> <!-- tel --><td><strong>Tel.</strong>&nbsp;: &nbsp;06 25 14 72 09</td></tr>
-				</table></td></tr>				
+				</table></td></tr>
+
+				<!-- On peut ajouter des boutons si l'on veut en dessous comme "téléchargez notre plaquette" ou "mon contact directement dans votre smartphone " (avec un lien vers une VCARD par exemple)
+				Il est possible de rajouter de nouvelles lignes, si vous ne savez pas faire ==> http://www.openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/les-tableaux-1
+				Ici j'ai ajouté une ligne dans laquelle j'ai mis un bouton avec un plan  -->
+
 			<tr><td colspan="7" class="btn"> <a href="https://goo.gl/maps/6qf3J" target="_blank"> <img src="http://img11.hostingpics.net/pics/908395planrecrutop.png"> </a>
 			</td></tr>
 		</table>
 	</body>
 </html>
+
+<!-- Philippe Siguret, fev-2015 -->
