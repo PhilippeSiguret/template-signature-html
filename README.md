@@ -14,4 +14,4 @@ Si vous êtes perdus, <a href="http://www.openclassrooms.com/courses/apprenez-a-
 </ul>
 
 <h2>Contact </h2>
-Vous pouvez me contacter si vous avez des questions à <a href="mailto:p.siguret@gmail.com" target="blank">p.siguret@gmail.com</a>
+Vous pouvez me contacter à <a href="mailto:p.siguret@gmail.com" target="blank">p.siguret@gmail.com</a>
