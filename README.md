@@ -12,3 +12,6 @@ Si vous êtes perdus, <a href="http://www.openclassrooms.com/courses/apprenez-a-
 <li> Cette signature n'est pas responsive, mais est assez petite pour passer dans bon nombre de navigateurs.</li>
 <li> J'ai créé le bouton avec <a href="http://buttonoptimizer.com">Button Optimizer</a> car c'est simple d'utilisation. </li>
 </ul>
+
+<h2>Contact </h2>
+Vous pouvez me contacter si vous avez des questions à <a href="mailto:p.siguret@gmail.com" target="blank">p.siguret@gmail.com</a>
