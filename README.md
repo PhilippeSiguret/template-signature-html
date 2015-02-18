@@ -1,8 +1,8 @@
 <h1> Template de signature de mails en HTML </h1>
 <h2>Le rendu </h2>
 <ul>
-	<li>Voici ce que donne la signature <a href="http://www.hostingpics.net/viewer.php?id=158396modelesignaturehtml.png"> sans bouton (Call To Action)</a> </li>
-	<li> Voici ce que donne la signature <a href="http://www.hostingpics.net/viewer.php?id=485286modelesignaturehtml.png"> avec un CTA (location pour le coup)</a>
+	<li>Voici ce que donne la signature <a href="http://www.hostingpics.net/viewer.php?id=158396modelesignaturehtml.png" target="_blank"> sans bouton (Call To Action)</a> </li>
+	<li> Voici ce que donne la signature <a href="http://www.hostingpics.net/viewer.php?id=485286modelesignaturehtml.png" target="_blank"> avec un CTA (location pour le coup)</a>
 </ul>
 <h2>Mise en place </h2>
 
