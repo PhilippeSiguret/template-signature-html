@@ -10,6 +10,8 @@ Voici un modèle de signatures de mails, que l'on peut modifier simplement.
 Ce modèle fonctionne sur le système des table HTML5 
 Si vous êtes perdus, <a href="http://www.openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/les-tableaux-1"> un cours rapide sur Open Classrooms vous aidera </a>
 
+Tous les lecteurs de mails ne savent pas forcément lire le CSS, et l'écrasent. Il est donc préférable, après avoir terminé votre signature de mettre en inline le style, grâce à <a href="http://zurb.com/ink/inliner.php">l'outil d'inliner de Ink</a>. 
+
 <h2>Création</h2>
 <ul>
 <li>Pour faire ce modèle j'ai uploadé mes images sur <a href="http://www.hostingpics.net">HostingPics</a>, car c'est un serveur gratuit et simple d'utilisation qui délivre rapidement les images. </li>
